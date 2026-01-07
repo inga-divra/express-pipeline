@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from NEW version 🚀');
+  res.send('Hello from Watchtower!');
 });
 
 const PORT = 8080;
